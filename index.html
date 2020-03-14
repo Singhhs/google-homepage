@@ -3,38 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Google</title> 
+	<link rel="stylesheet" href="css/mairn.css">
+
 </head>
 <body>
 
 	<header>
 		<nav class="head_menu">
-			<ul>
-				<li><a href="#">Gmail</a></li>
-				<li><a href="#">Images</a></li>
-				<li><a href="#" class="apps"></a></li>
-				<li>user@gmail.com <span class="tg-arrow"></span></li>
-			</ul>
+				<div class="nav-items-right">
+					<a href="#">Gmail</a>
+					<a href="#">Billeder</a>
+					<a class="nav-btn" href="#">Log in</a>
 		</nav>
 	</header>
 
 	<div class="container">
 		<center>
 			<div class="logo">
-				<img src="img/google.png" alt="google">
+				<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
 			</div>
 
 			<form action="results.html" method="GET" name="search">
 
 				<div class="g-search">
 					<input class="search-input" type="text" text="" autofocus="autofocus">
-					<div class="mic">
-						<img class="v_search" alt="voice search" src="./img/mic.gif" />
-					</div>
 				</div>
 
 				<div class="buttons">
-					<input class="btn" href="results.html" type="submit" value="Google Search">
-					<input class="btn" href="https://www.google.com/doodles" type="submit" value="I'm Feeling Lucky">
+					<input class="btn" href="results.html" type="submit" value="Google-søgning">
+					<input class="btn" href="https://www.google.com/doodles" type="submit" value="Jeg prøver lykken">
 				</div>
 
 			</form>
@@ -43,22 +40,21 @@
 	</div>
 	
 	<footer>
-		<nav class="l_footer">
-			<ul>
-				<li><a href="#">Advertising</a></li>
-				<li><a href="#">Business</a></li>
-				<li><a href="#">About</a></li>
-			</ul>
-		</nav>
-
-		<nav class="r_footer">
-			<ul>
-				<li><a href="#">Privacy</a></li>
-				<li><a href="#">Terms</a></li>
-				<li><a href="#">Settings</a></li>
-			</ul>
-		</nav>
-	</footer>
-
+		<div class="footer-container">
+		  <div class="nav-bottom">
+			<div class="nav-items-left">
+			  <a href="#">Annoncering</a>
+			  <a href="#">Erhverv</a>
+			  <a href="#">Om</a>
+			  <a href="#">Sådan fungere Goolge Søgning</a>
+			</div>
+			<div class="nav-items-right">
+			  <a href="#">Privatliv</a>
+			  <a href="#">Vilkår</a>
+			  <a href="#">Indstillinger</a>
+			</div>
+		  </div>
+		</div>
+	  </footer>
 </body>
 </html>
