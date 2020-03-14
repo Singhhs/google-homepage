@@ -3,23 +3,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Anchor Styles (for hovering animation) */
-a {
-  color: rgba(0, 0, 0, 0.87);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  opacity: 0.8;
-}
-
-.clearfix::after {
-  display: table;
-  content: "";
-  clear: both;
-}
-
 /* Both Header and Footer navs follow the same styling */
 .nav-items-left {
   margin-top: 20px;
