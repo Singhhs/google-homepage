@@ -9,10 +9,15 @@ header {
 
 /* Both Header and Footer navs follow the same styling */
 .nav-items-right {
-  margin-top: 20px;
   margin-right: 20px;
   float: right;
 }
+
+.nav-items-left {
+  width: 50%;
+  float: left;
+}
+
 
 /* Main container for the main elements */
 .container {
